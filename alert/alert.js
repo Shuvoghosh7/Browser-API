@@ -10,3 +10,9 @@ const isGoing = ()=>{
        console.log('Dore giya mor')
    }
 }
+const askName = () =>{
+   const name= prompt('what is your name')
+   if(name){
+       console.log(name)
+   }
+}
